@@ -42,7 +42,6 @@ def play(board)
   loop do turn(board) 
     counter = counter + 1
     puts turn(board)
-      counter += 1
       if counter >= 9
     break 
   end
